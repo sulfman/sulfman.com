@@ -1,0 +1,127 @@
+ <!-- Start SOFTWARE TESTING -->
+      <div class="heading_container" style="align-items: flex-start;">
+        <h3>SOFTWARE TESTING</h3>
+      </div>
+     
+        <div class="card">
+          <div class="card-header" id="headingstt">
+            <h2 class="mb-0">
+              <button class="btn btn-block text-left" type="button" data-toggle="collapse" data-target="#collapsestt" aria-expanded="true" aria-controls="collapsestt" style="color: #00bdbd;">
+                SOFTWARE TESTING TRAINING
+              </button>
+            </h2>
+          </div>      
+          <div id="collapsestt" class="collapse" aria-labelledby="headingstt" data-parent="#accordionExample">
+            <div class="card-body">
+              Some placeholder content for the first accordion panel. This panel is shown by default, thanks to the <code>.show</code> class.
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header" id="headingptt">
+            <h2 class="mb-0">
+              <button class="btn btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseptt" aria-expanded="true" aria-controls="collapseptt" style="color: #00bdbd;">
+                PENETRATION TESTING TRAINING
+              </button>
+            </h2>
+          </div>
+          <div id="collapseptt" class="collapse" aria-labelledby="headingptt" data-parent="#accordionExample">
+            <div class="card-body">
+              Some TOGAF content for the second accordion panel. This panel is hidden by default.
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header" id="headingftt">
+            <h2 class="mb-0">
+              <button class="btn btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseftt" aria-expanded="true" aria-controls="collapseftt" style="color: #00bdbd;">
+                FUNCTIONAL TESTING TRAINING
+              </button>
+            </h2>
+          </div>
+          <div id="collapseftt" class="collapse" aria-labelledby="headingftt" data-parent="#accordionExample">
+            <div class="card-body">
+              And lastly, the ITIL content for the third and final accordion panel. This panel is hidden by default.
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header" id="headingmtt">
+            <h2 class="mb-0">
+              <button class="btn btn-block text-left" type="button" data-toggle="collapse" data-target="#collapsemtt" aria-expanded="true" aria-controls="collapsemtt" style="color: #00bdbd;">
+                MANUAL TESTING TRAINING
+              </button>
+            </h2>
+          </div>
+          <div id="collapsemtt" class="collapse" aria-labelledby="headingmtt" data-parent="#accordionExample">
+            <div class="card-body">
+              And lastly, the ITIL content for the third and final accordion panel. This panel is hidden by default.
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header" id="headingatt">
+            <h2 class="mb-0">
+              <button class="btn btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseatt" aria-expanded="true" aria-controls="collapseatt" style="color: #00bdbd;">
+                AUTOMATION TESTING TRAINING
+              </button>
+            </h2>
+          </div>      
+          <div id="collapseatt" class="collapse" aria-labelledby="headingatt" data-parent="#accordionExample">
+            <div class="card-body">
+              Some NDPR & GDPR content for the first accordion panel. This panel is shown by default, thanks to the <code>.show</code> class.
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header" id="headingapi">
+            <h2 class="mb-0">
+              <button class="btn btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseapi" aria-expanded="true" aria-controls="collapseapi" style="color: #00bdbd;">
+                API TRAINING
+              </button>
+            </h2>
+          </div>      
+          <div id="collapseapi" class="collapse" aria-labelledby="headingapi" data-parent="#accordionExample">
+            <div class="card-body">
+              Some NDPR & GDPR content for the first accordion panel. This panel is shown by default, thanks to the <code>.show</code> class.
+            </div>
+          </div>
+        </div>
+      <br/>
+      <!-- End SOFTWARE TESTING -->
+
+      <!-- Start PERSONAL DEVELOPMENT -->
+      <div class="heading_container" style="align-items: flex-start;">
+        <h3>PERSONAL DEVELOPMENT</h3>
+      </div>
+      <div class="card">
+        <div class="card-header" id="headingldw">
+          <h2 class="mb-0">
+            <button class="btn btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseldw" aria-expanded="true" aria-controls="collapseldw" style="color: #004040;">
+              LAND ON YOUR DREAM JOB WORKSHOP
+            </button>
+          </h2>
+        </div>      
+        <div id="collapseldw" class="collapse" aria-labelledby="headingldw" data-parent="#accordionExample">
+          <div class="card-body">
+            Some NDPR & GDPR content for the first accordion panel. This panel is shown by default, thanks to the <code>.show</code> class.
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header" id="headingti">
+          <h2 class="mb-0">
+            <button class="btn btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseti" aria-expanded="true" aria-controls="collapseti" style="color: #004040;">
+             TIME MANAGEMENT
+            </button>
+          </h2>
+        </div>      
+        <div id="collapseti" class="collapse" aria-labelledby="headingti" data-parent="#accordionExample">
+          <div class="card-body">
+            Some NDPR & GDPR content for the first accordion panel. This panel is shown by default, thanks to the <code>.show</code> class.
+          </div>
+        </div>
+      </div>      
+      <br/>
+      <br/>
+      <!-- End PERSONAL DEVELOPMENT -->

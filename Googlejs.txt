@@ -1,0 +1,22 @@
+function doPost(e) {
+    var sheet = SpreadsheetApp.openById('159VilB7bEcd2Xoyrwo1qJe5Np0AsbHKutUm2e6bbRec').getActiveSheet();
+    var rowData = [];
+    rowData.push(e.parameter.name);
+    rowData.push(e.parameter.email);
+    rowData.push(e.parameter.message);
+    var captchaToken = e.parameter.captchaToken;
+    var response = UrlFetchApp.fetch("https://hcaptcha.com/siteverify", {
+        method: "post",
+        payload: {
+            response: captchaToken,
+            sitekey: "d356f27d-c5ca-4d15-8f86-27357488558d" // Include your site key here
+        }
+    });
+    var result = JSON.parse(response.getContentText());
+    if (result.success) {
+        sheet.appendRow(rowData);
+        return ContentService.createTextOutput('Data received successfully');
+    } else {
+        return ContentService.createTextOutput('hCaptcha validation failed');
+    }
+}
