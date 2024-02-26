@@ -3,7 +3,7 @@ document.getElementById('contactForm').addEventListener('submit', function (even
     var formData = new FormData(this);
     var token = grecaptcha.getResponse();
     if (!token) {
-        showAlert('Please complete the captcha', 'error');
+        alert('Please complete the captcha');
         return;
     }
     formData.append('captchaToken', token);
@@ -11,7 +11,7 @@ document.getElementById('contactForm').addEventListener('submit', function (even
 });
 
 function sendData(formData) {
-    fetch('https://script.google.com/macros/s/AKfycbwqSkrAA8odfSbeh78akit9VRznp47OTuIvyyn59-x7E8csR7AgiT2ANCr5Nh2M8EEfHQ/exec', {
+    fetch('https://script.google.com/macros/s/AKfycbx9SRbj9c7UXfhoMiSFwmfcMWOcZ1Jn3fC0UC8ok5FNm_xQqAqZxXC6D2L6j9yJLdzV9w/exec', {
             method: 'POST',
             body: formData
         })
@@ -23,20 +23,11 @@ function sendData(formData) {
         })
         .then(data => {
             console.log(data);
-            showAlert('We have received your message, We will contact you soon!', 'success');
+            alert('Form submitted successfully!');
             document.getElementById('contactForm').reset(); // Reset the form after successful submission
         })
         .catch(error => {
             console.error('There was an error!', error);
-            showAlert('An error occurred while submitting the form. Please try again later.', 'error');
+            alert('An error occurred while submitting the form. Please try again later.');
         });
-}
-
-function showAlert(message, type) {
-    swal({
-        title: '',
-        text: message,
-        icon: type,
-        button: 'OK',
-    });
 }
